@@ -23,4 +23,10 @@ for x in range (2,9):
     # print(x)
 # 6th
 for x in range(1,25,3):
-    print(x)
+    pass
+    # print(x)
+# 7th Print the numbers ranging from 0 to 10 and also pring a message when loop has ended
+for i in range(1,11):
+    print(i)
+    if(i==10):
+        print("Your loop has been ended")
