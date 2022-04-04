@@ -6,7 +6,7 @@ for x in "vellore":
 sports = ["badminton","cricket","basketball","footbal"]
 for str in sports:
     pass
-    # print(str)
+    # print(str) # pass acts as a placeholder, so there code can be placed in future
 # 3rd Write down a for loop to exit when the value of string is baskeball
 for str in sports:
     if(str=="basketball"):
