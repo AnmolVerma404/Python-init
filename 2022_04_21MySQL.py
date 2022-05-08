@@ -1,6 +1,5 @@
 import mysql.connector
 from mysql.connector import Error
-import pandas as pd
 
 
 # setting up connection
@@ -64,6 +63,10 @@ def execute_query(connection, query):
     try:
         cursor.execute(query)
         connection.commit()
+        for x in cursor:
+            print(x)
         print("success")
     except Error as err:
         print("Error: '{err}'")
+
+execute_query(connection,"SHOW DATABASES;")
